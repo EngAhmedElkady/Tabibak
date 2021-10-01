@@ -26,8 +26,12 @@ A medical application to predict heart disease, diabetes and kidney disease and 
 * threadpoolctl==3.0.0
 * whitenoise==5.3.0
 
+## Database design
+![image](https://user-images.githubusercontent.com/76946030/135693730-d1a8e33f-a550-4c72-911b-6e565ddc1f0f.png)
+
+
 ## Usage
-server : [https://tabiba.herokuapp.com)](https://tabiba.herokuapp.com) 
+server : [https://tabiba.herokuapp.com]( https://tabiba.herokuapp.com ) 
 
 ### account
 * register
@@ -67,6 +71,8 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
     "password": "Password@123"
 }
 ````
+
+### kidney
 
 
 
