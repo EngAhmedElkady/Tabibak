@@ -27,7 +27,47 @@ A medical application to predict heart disease, diabetes and kidney disease and 
 * whitenoise==5.3.0
 
 ## Usage
-server:[https://tabiba.herokuapp.com)](https://tabiba.herokuapp.com) 
+server : [https://tabiba.herokuapp.com)](https://tabiba.herokuapp.com) 
 
 ### account
+* register
+* login
+* logout
+* logoutall
+
+* register :
+That’s it. Now go to url ( https://tabiba.herokuapp.com/api/register/ ) in your browser or post and the following in content.
+````
+{
+    "username": "admin",
+    "email": "admin@bot.com",
+    "password": "Password@123"
+}
+
+````
+And in response, you will get similar data –
+
+````
+{
+    "user": {
+        "id": 2,
+        "username": "admin1",
+        "email": "admin1@bot.com"
+    },
+    "token": "790e890d571753148bbc9c4447f106e74ecf4d1404f080245f3e259703d58b09"
+}
+````
+
+* login :
+That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your browser or post and the following in content.
+
+````
+{
+    "username": "admin",
+    "password": "Password@123"
+}
+````
+
+
+
 
