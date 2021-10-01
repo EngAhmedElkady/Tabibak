@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&e5adidrr@s!frz(v0p=vzs+7j3)^$6f&j*ck^j9f(m5(mc@-#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','tabiba.herokuapp.com']
 
 
 # Application definition
