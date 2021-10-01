@@ -73,7 +73,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
 ````
 
 ### Kidney
-[https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com//kidney/api/kidney_data/)
+[https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com/kidney/api/kidney_data/)
 
 * POST
 ````
@@ -106,7 +106,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
 ````
 
 ## Heart
-[https://tabiba.herokuapp.com//heart/api/heart_data/](https://tabiba.herokuapp.com//heart/api/heart_data/)
+[https://tabiba.herokuapp.com//heart/api/heart_data/](https://tabiba.herokuapp.com/heart/api/heart_data/)
 
 * POST
 ````
@@ -120,7 +120,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
         "exang": "360.00",
         "oldpeak": "140.00",
         "ca": "900.00"
- }
+}
 ````
 * GET
 ````
@@ -136,4 +136,33 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
     ]
 }
 ````
+
+## Diabetes
+[https://tabiba.herokuapp.com/Diabetes/api/Diabetes_data](https://tabiba.herokuapp.com/Diabetes/api/Diabetes_data)
+
+* POST
+````
+{
+        "age": "50.00",
+        "Pregnancies": 120,
+        "Glucose": 250,
+        "SkinThickness": 360,
+        "Insulin": 150
+}
+````
+* GET
+````
+{
+    "result": [
+        1.0
+    ],
+    "result2": [
+        [
+            0.2243900000442094,
+            0.7756099999557908
+        ]
+    ]
+}
+````
+
 
