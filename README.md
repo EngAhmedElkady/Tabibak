@@ -72,10 +72,10 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
 }
 ````
 
-### kidney
+### Kidney
 [https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com//kidney/api/kidney_data/)
 
-** post
+* POST
 ````
 {
         "age": "50.00",
@@ -90,7 +90,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
         "htn": "yes"
 }
 ````
-** get
+* GET
 ````
 {
     "result": [
@@ -105,4 +105,35 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
 }
 ````
 
+## Heart
+[https://tabiba.herokuapp.com//heart/api/heart_data/](https://tabiba.herokuapp.com//heart/api/heart_data/)
+
+* POST
+````
+{
+
+        "age": "50.00",
+        "cp": "200.01",
+        "trestbps": "350.00",
+        "chol": "50.00",
+        "thalach": "100.00",
+        "exang": "360.00",
+        "oldpeak": "140.00",
+        "ca": "900.00"
+ }
+````
+* GET
+````
+{
+    "result": [
+        0
+    ],
+    "result2": [
+        [
+            1.0,
+            0.0
+        ]
+    ]
+}
+````
 
