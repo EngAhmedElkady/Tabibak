@@ -40,7 +40,7 @@ server : [https://tabiba.herokuapp.com]( https://tabiba.herokuapp.com )
 * logoutall
 
 * register :
-That’s it. Now go to url ( https://tabiba.herokuapp.com/api/register/ ) in your browser or post and the following in content.
+That’s it. Now go to url ( https://tabiba.herokuapp.com/account/api/register/ ) in your browser or post and the following in content.
 ````
 {
     "username": "admin",
@@ -63,7 +63,7 @@ And in response, you will get similar data –
 ````
 
 * login :
-That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your browser or post and the following in content.
+That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in your browser or post and the following in content.
 
 ````
 {
