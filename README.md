@@ -27,6 +27,7 @@ A medical application to predict heart disease, diabetes and kidney disease and 
 * whitenoise==5.3.0
 
 ## Usage
-first :
-[server](https://tabiba.herokuapp.com/) 
+server:[https://tabiba.herokuapp.com)](https://tabiba.herokuapp.com) 
+
+### account
 
