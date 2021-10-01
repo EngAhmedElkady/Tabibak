@@ -73,7 +73,36 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/api/login/ ) in your br
 ````
 
 ### kidney
+[https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com//kidney/api/kidney_data/)
 
-
+** post
+````
+{
+        "age": "50.00",
+        "al": 20,
+        "su": "20.00",
+        "bgr": 10,
+        "bu": 250,
+        "sc": "20.00",
+        "hemo": "50.02",
+        "pcv": 28,
+        "wc": 55,
+        "htn": "yes"
+}
+````
+** get
+````
+{
+    "result": [
+        0
+    ],
+    "result2": [
+        [
+            0.8,
+            0.2
+        ]
+    ]
+}
+````
 
 
