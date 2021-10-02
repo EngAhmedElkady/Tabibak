@@ -72,6 +72,19 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
 }
 ````
 
+## profile :
+[https://tabiba.herokuapp.com/account/api/profile/](https://tabiba.herokuapp.com/account/api/profile/)
+
+* GIT
+````
+{
+    "username": "Ahmed Elkady",
+    "email": "ahmedabdalkaderma@gmail.com",
+    "phone": "+201140369670",
+    "photo": "uploads/52ac5893-b0f9-42d4-8575-e957bdcce8eb.jpeg"
+}
+````
+
 ### Kidney
 [https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com/kidney/api/kidney_data/)
 
