@@ -103,7 +103,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
         "htn": "yes"
 }
 ````
-* GET
+and return 
 ````
 {
     "result": [
@@ -117,7 +117,44 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
     ]
 }
 ````
-
+* GET :
+all kidney data
+````
+[
+    {
+        "id": 1,
+        "date": "2021-10-01T22:54:16.774322Z",
+        "age": "50.00",
+        "al": 20,
+        "su": "20.00",
+        "bgr": 10,
+        "bu": 250,
+        "sc": "20.00",
+        "hemo": "50.02",
+        "pcv": 28,
+        "wc": 55,
+        "htn": "yes",
+        "result": 0,
+        "result2": "0"
+    },
+    {
+        "id": 2,
+        "date": "2021-10-01T22:57:40.655739Z",
+        "age": "50.00",
+        "al": 20,
+        "su": "20.00",
+        "bgr": 10,
+        "bu": 250,
+        "sc": "20.00",
+        "hemo": "50.02",
+        "pcv": 28,
+        "wc": 55,
+        "htn": "yes",
+        "result": 0,
+        "result2": "0.8"
+    }
+]
+````
 ## Heart
 [https://tabiba.herokuapp.com//heart/api/heart_data/](https://tabiba.herokuapp.com/heart/api/heart_data/)
 
@@ -135,7 +172,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
         "ca": "900.00"
 }
 ````
-* GET
+and return 
 ````
 {
     "result": [
@@ -148,8 +185,42 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
         ]
     ]
 }
-````
 
+````
+* GET :
+all heart data
+````
+[
+    {
+        "id": 1,
+        "date": "2021-10-01T23:00:05.784219Z",
+        "age": "50.00",
+        "cp": "200.01",
+        "trestbps": "350.00",
+        "chol": "50.00",
+        "thalach": "100.00",
+        "exang": "360.00",
+        "oldpeak": "140.00",
+        "ca": "900.00",
+        "result": 0,
+        "result2": 0
+    },
+    {
+        "id": 2,
+        "date": "2021-10-01T23:01:27.882909Z",
+        "age": "50.00",
+        "cp": "200.01",
+        "trestbps": "350.00",
+        "chol": "50.00",
+        "thalach": "100.00",
+        "exang": "360.00",
+        "oldpeak": "140.00",
+        "ca": "900.00",
+        "result": 0,
+        "result2": 1
+    }
+]
+````
 ## Diabetes
 [https://tabiba.herokuapp.com/Diabetes/api/Diabetes_data](https://tabiba.herokuapp.com/Diabetes/api/Diabetes_data)
 
@@ -163,7 +234,7 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
         "Insulin": 150
 }
 ````
-* GET
+and retuen
 ````
 {
     "result": [
@@ -177,5 +248,32 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
     ]
 }
 ````
+* GET
+````
 
+[
+    {
+        "id": 1,
+        "age": "50.00",
+        "date": "2021-10-01T23:00:26.475894Z",
+        "Pregnancies": 120,
+        "Glucose": 250,
+        "SkinThickness": 360,
+        "Insulin": 150,
+        "result": 0,
+        "result2": 0
+    },
+    {
+        "id": 2,
+        "age": "50.00",
+        "date": "2021-10-01T23:05:06.228778Z",
+        "Pregnancies": 120,
+        "Glucose": 250,
+        "SkinThickness": 360,
+        "Insulin": 150,
+        "result": 1,
+        "result2": 0
+    }
+]
+````
 
