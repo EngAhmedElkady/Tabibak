@@ -118,7 +118,7 @@ and return
 }
 ````
 * GET :
-all kidney data
+all kidney data for current user
 ````
 [
     {
@@ -188,7 +188,7 @@ and return
 
 ````
 * GET :
-all heart data
+all heart data for current user
 ````
 [
     {
@@ -249,6 +249,7 @@ and retuen
 }
 ````
 * GET
+all Diabetes data for current user
 ````
 
 [
