@@ -84,6 +84,15 @@ That’s it. Now go to url (https://tabiba.herokuapp.com/account/api/login/ ) in
     "photo": "uploads/52ac5893-b0f9-42d4-8575-e957bdcce8eb.jpeg"
 }
 ````
+* update :
+You can update phone and photo
+````
+{
+    "phone": "01140369670",
+    "photo": "uploads/52ac5893-b0f9-42d4957bdcce8eb_7WWI03r.jpeg"
+}
+
+````
 
 ### Kidney
 [https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com/kidney/api/kidney_data/)
