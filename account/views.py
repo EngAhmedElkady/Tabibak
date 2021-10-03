@@ -54,7 +54,7 @@ def profile_data(request):
         user1=request.user
         profile=Profile.objects.get(user=user1)
         profile.phone=request.data['phone']
-        # profile.photo=request.data['photo']
+        profile.photo=request.data['photo']
         profile.save()
         return Response({
             "phone":profile.phone,
