@@ -47,19 +47,33 @@ class LoginAPI(KnoxLoginView):
     
 
 
-@api_view(['GET', 'POST'])
+@api_view(['GET','PUT'])
 def profile_data(request):
-   
-    if request.method == 'POST':
-        serializer=ProfileSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    if request.method == 'PUT':
+        user1=request.user
+        profile=Profile.objects.get(user=user1)
+        profile.phone=request.data['phone']
+        profile.photo=request.data['photo']
+        profile.save()
+        return Response({
+            "phone":profile.phone,
+            "photo":str(profile.photo),
+        })
+
     else:
         user1=request.user
         profile=Profile.objects.get(user=user1)
-        serializer=ProfileSerializer(profile)
-        return Response(serializer.data)
-   
+        data1={}
+        data1["username"]=user1.username
+        data1["email"]=user1.email
+        data1["phone"]=profile.phone
+        data1["photo"]=profile.photo
+        return Response({
+            "username":user1.username,
+            "email":user1.email,
+            "phone":profile.phone,
+            "photo":str(profile.photo),
+        })
+
 
