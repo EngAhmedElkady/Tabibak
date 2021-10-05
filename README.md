@@ -95,7 +95,7 @@ You can update phone and photo
 ````
 
 ### Kidney
-[https://tabiba.herokuapp.com//kidney/api/kidney_data/](https://tabiba.herokuapp.com/kidney/api/kidney_data/)
+[https://tabiba.herokuapp.com//kidney/api/kidney_data](https://tabiba.herokuapp.com/kidney/api/kidney_data)
 
 * POST
 ````
@@ -165,7 +165,7 @@ all kidney data for current user
 ]
 ````
 ## Heart
-[https://tabiba.herokuapp.com//heart/api/heart_data/](https://tabiba.herokuapp.com/heart/api/heart_data/)
+[https://tabiba.herokuapp.com//heart/api/heart_data](https://tabiba.herokuapp.com/heart/api/heart_data)
 
 * POST
 ````
